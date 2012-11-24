@@ -1,0 +1,5 @@
+naresh	100
+dinesh	500
+sandeep	100
+kalpesh	200
+shree	400

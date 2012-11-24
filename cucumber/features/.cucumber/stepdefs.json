@@ -1,0 +1,255 @@
+[
+  {
+    "source": "^I run cucumber \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:1",
+    "steps": [
+      {
+        "name": "I run cucumber \"--format json features/doc_string.feature\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "--format json features/doc_string.feature"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"--format json features/one_passing_one_failing.feature\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "--format json features/one_passing_one_failing.feature"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"-b --format json features/embed.feature\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "-b --format json features/embed.feature"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/f.feature --format Jb::Formatter\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/f.feature --format Jb::Formatter"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/f.feature --format Ze::Formator\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/f.feature --format Ze::Formator"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/foo.feature\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/foo.feature"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/one_passing_one_failing.feature -r features -f rerun\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/one_passing_one_failing.feature -r features -f rerun"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/sample.feature --tags ~@wip\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/sample.feature --tags ~@wip"
+          }
+        ]
+      },
+      {
+        "name": "I run cucumber \"features/sample.feature -r features --tags ~@wip\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "features/sample.feature -r features --tags ~@wip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^it should (pass|fail) with JSON:$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:5",
+    "steps": [
+      {
+        "name": "it should fail with JSON:",
+        "args": [
+          {
+            "offset": 10,
+            "val": "fail"
+          }
+        ]
+      },
+      {
+        "name": "it should pass with JSON:",
+        "args": [
+          {
+            "offset": 10,
+            "val": "pass"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a directory without standard Cucumber project directory structure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:19",
+    "steps": [
+      {
+        "name": "a directory without standard Cucumber project directory structure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a scenario with a step that looks like this:$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:25",
+    "steps": [
+      {
+        "name": "a scenario with a step that looks like this:",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a step definition that looks like this:$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:31",
+    "steps": [
+      {
+        "name": "a step definition that looks like this:",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I run the feature with the (\\w+) formatter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cucumber_steps.rb:35",
+    "steps": [
+      {
+        "name": "I run the feature with the progress formatter",
+        "args": [
+          {
+            "offset": 27,
+            "val": "progress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get a download with the filename \"([^\\\"]*)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/download_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am running spork in the background$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/drb_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am running spork in the background",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^jeg drikker en \"([^\"]*)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/iso-8859-1_steps.rb:6",
+    "steps": [
+      {
+        "name": "jeg drikker en \"øl\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "øl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^skal de andre si \"([^\"]*)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/iso-8859-1_steps.rb:10",
+    "steps": [
+      {
+        "name": "skal de andre si \"skål\"",
+        "args": [
+          {
+            "offset": 18,
+            "val": "skål"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a registered user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^he clicks on login link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^that user should get created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I attach the file at \"([^\\\"]*)\" to \"([^\\\"]*)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/upload_steps.rb:1",
+    "steps": [
+
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+Hello,
+this is text file uploaded by us in Dir2.
